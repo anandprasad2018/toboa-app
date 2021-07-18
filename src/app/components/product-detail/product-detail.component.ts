@@ -13,13 +13,13 @@ export class ProductDetailComponent implements OnInit {
   }
 
   columnDefs = [   
-    { field: 'Products',resizable: true,filter: true },
-    { field: "Image"}
+    { field: 'Products',resizable: true,filter: true }
+   
    
 ];
 
 rowData = [
-    { Products: 'Food And Agro Products', Image:""},
+    { Products: 'Food And Agro Products'},
     { Products: 'Spices' },
     {  Products: 'Electric Power Tools' },
     {  Products: 'Household Items' }, 
