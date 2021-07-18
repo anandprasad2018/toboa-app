@@ -1,0 +1,30 @@
+.page-wrapper {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.sticky-header {
+    flex-grow: 0;
+    min-height: 40px; /* whatever you want it to be */
+}
+
+.content-wrapper {
+    flex-grow: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url(../assets/images/image1.jpg); */
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.footer {
+    min-height: 30px; /* whatever you want it to be */
+    flex-grow: 0;
+}
